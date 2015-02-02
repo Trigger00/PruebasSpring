@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.2.xsd">
+
+	<!--<bean id="bob" class="com.tecsup.springbasico.model.Musico" />
+
+	<bean id="cobain" class="com.tecsup.springbasico.model.Musico">
+		<constructor-arg value="10" />
+	</bean>
+
+	<bean id="guitarraPaul" class="com.tecsup.springbasico.model.Instrumento" />
+
+	<bean id="paul" class="com.tecsup.springbasico.model.Musico">
+		<constructor-arg value="2" />
+		<constructor-arg ref="guitarraPaul" />
+	</bean>
+
+	<bean id="musico1" class="com.tecsup.springbasico.model.Musico">
+		<property name="cancionesConocidas" value="35" />
+	</bean>
+
+	<bean id="guitarraJulian" class="com.tecsup.springbasico.model.Instrumento" />
+
+	<bean id="julian" class="com.tecsup.springbasico.model.Musico">
+		<property name="cancionesConocidas" value="10" />
+		<property name="instrumento" ref="guitarraJulian" />
+	</bean>
+
+	<bean id="calamardo" class="com.tecsup.springbasico.model.Musico">
+		<property name="instrumento">
+			<bean class="com.tecsup.springbasico.model.Instrumento" />
+		</property>
+	</bean>
+
+	<bean id="guitarraElvis" class="com.tecsup.springbasico.model.Guitarra" />
+	<bean id="pianoElvis" class="com.tecsup.springbasico.model.Piano" />
+
+	<bean id="elvis" class="com.tecsup.springbasico.model.Musico">
+		<property name="instrumentos">
+			<list>
+				<ref bean="guitarraElvis" />
+				<ref bean="pianoElvis" />
+			</list>
+		</property>
+	</bean>
+
+
+	<bean id="nulo" class="com.tecsup.springbasico.model.Musico">
+		<property name="instrumentos">
+			<null />
+		</property>
+	</bean>
+
+	<bean id="instrumento" class="com.tecsup.springbasico.model.Instrumento"/>
+
+	<bean id="musico" class="com.tecsup.springbasico.model.Musico" autowire="byName"/>
+
+
+	<bean id="musico2" class="com.tecsup.springbasico.model.Musico" autowire="byType"/>
+	
+	<bean id="guitarra" class="com.tecsup.springbasico.model.Guitarra" primary="true"/>
+	<bean id="musico2" class="com.tecsup.springbasico.model.Musico" autowire="byType"/>
+	
+	<bean id="guitarra" class="com.tecsup.springbasico.model.Guitarra" primary="true"/>
+	
+	<bean id="musico" class="com.tecsup.springbasico.model.Musico" autowire="constructor"/>
+
+	<bean id="instrumento" class="com.tecsup.springbasico.model.Instrumento"/>-->
+	
+	<bean id="musico" class="com.tecsup.springbasico.model.Musico" autowire="constructor"/>
+
+	<bean id="instrumento" class="com.tecsup.springbasico.model.Instrumento"/>
+
+</beans> 
